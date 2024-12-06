@@ -8,7 +8,7 @@ export default function Home() {
 
     <><NavBar />
     <Section/>
-     <div style={{height: "50vh"}}></div>
+     <div style={{height: "5vh"}}></div>
     <Landing /></>
   );
 }
