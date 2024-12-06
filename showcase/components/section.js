@@ -23,8 +23,8 @@ const Section = () => {
       
     return (
 
-        <div className = "w-full bg-whit px-8 py-8 leading-non" >
-             <div className= "bg-white px-8 py-3 flex flex-col text-[50px]">
+        <div className = "w-full bg-whit px-8  leading-non" >
+             <div className= "bg-white px-8  flex flex-col text-[50px]">
            
       {
         projects.map( (project, index) => {
