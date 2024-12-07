@@ -28,16 +28,27 @@ body {
 }
 
 @font-face {
-  font-family: 'ESKlarheitGroteskMono-Bold';
-  src: url('./fonts/es-klarheit-font-family-1730750912-0/ESKlarheitGroteskMono-Bold.otf') format('truetype')
+  font-family: 'ESKlarheitKurrentMono-X';
+  src: url('./fonts/es-klarheit-font-family-1730750912-0/ESKlarheitKurrentMono-X.otf') format('truetype')
+
+}
+@font-face {
+  font-family: 'RacingCar-font.otf';
+  src: url('./fonts/RacingCar-font.otf') format('truetype')
 
 }
 /* Landing Styles */
 
 .custom-font{
-  font-family: 'ESKlarheitGroteskMono-Bold';
+  font-family: 'ESKlarheitKurrentMono-X';
+}
+.landing-font-1{
+  font-family: 'RacingCar-font';
 }
 
+.header-font{
+  font-family: 'ESKlarheitGrotesk-TRIAL'
+}
 .paragraph{
   display: flex;
   font-size: 60px;
