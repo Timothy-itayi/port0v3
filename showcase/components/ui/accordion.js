@@ -16,17 +16,17 @@ const Accordion = ({ project, isOpen, toggleAccordion }) => {
       gsap.to(containerRef.current, {
         height: isOpen ? contentHeight : 0,
         duration: 0.5,
-        ease: "power2.inOut",
+        ease: "power4.inOut",
         overflow: 'hidden'
       });
     }
   }, [isOpen]);
 
   return (
-    <div className="mb-4 rounded overflow-hidden">
+    <div className="mb-4 border-md text-gray-400 opacity-100 z-10 transition-all duration-300 hover:text-white  hover:opacity-100  overflow-hidden">
       <header
         ref={headerRef}
-        className="p-4 cursor-pointer text-white"
+        className="p-4 cursor-pointer "
         onClick={toggleAccordion}
       >
         {project.title}
