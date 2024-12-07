@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className=" header  ">
+    <nav className="  ">
       <div className=" max-w-screen-xl mx-auto px-4 py-2 flex animate-fade-up justify-between flex-row">
         {/* Left Section */}
         <ul className="flex">
@@ -18,13 +18,7 @@ const NavBar = () => {
 
         {/* Right Section */}
         <ul className="flex space-x-4">
-          <li>
-            <Link href="https://github.com/Timothy-itayi">
-              <button className="py-3 px-5 text-black transition duration-300 ease-in-out">
-                GitHub
-              </button>
-            </Link>
-          </li>
+      
           <li>
             <Link href="https://www.linkedin.com/in/timothy-itayi-ab8754138/">
               <button className="py-3 px-6 text-white transition duration-300 ease-in-out">
@@ -33,9 +27,18 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <button className="py-3 px-3 text-white  transition duration-300 ease-in-out">
-            <span className="text-white text-xl">Projects</span>
-            </button>
+            <Link href="https://www.linkedin.com/in/timothy-itayi-ab8754138/">
+              <button className="py-3 px-6 text-white transition duration-300 ease-in-out">
+              <span className="text-white text-xl">Blog</span>
+              </button>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/in/timothy-itayi-ab8754138/">
+              <button className="py-3 px-6 text-white transition duration-300 ease-in-out">
+              <span className="text-white text-xl">Github</span>
+              </button>
+            </Link>
           </li>
         </ul>
       </div>

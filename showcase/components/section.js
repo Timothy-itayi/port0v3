@@ -31,7 +31,7 @@ const Section = () => {
   };
 
   return (
-    <div className="section">
+    <div className="py-9">
       {projects.map((project, index) => (
         <Accordion
           key={index}
