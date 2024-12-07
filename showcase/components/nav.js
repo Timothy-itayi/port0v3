@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <nav className="   ">
+    <nav className=" header  ">
       <div className=" max-w-screen-xl mx-auto px-4 py-2 flex animate-fade-up justify-between flex-row">
         {/* Left Section */}
         <ul className="flex">

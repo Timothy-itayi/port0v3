@@ -1,12 +1,12 @@
 
 
 
-const Project = ({ title, description  }) => {
+const Project = ({ title }) => {
 
     return (
-        <div  className="project">
+        <div  className="">
             <h2>{title}</h2>
-            <p>{description}</p>
+ 
         </div>
     )
 }
