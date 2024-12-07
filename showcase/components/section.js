@@ -1,41 +1,42 @@
-import Project from "./project"
+import { useState } from "react";
+import Accordion from "./accordion";
 
 const Section = () => {
+  const [expanded, setExpanded] = useState(null);
 
-    const projects = [
-        {
-          title: "GrandPrix History",
-         
-        },
-        {
-          title: "Waitless",
-         
-        },
-        {
-          title: "Timothy's Blog",
-          
-        },
-        {
-          title: "F1-Heritage",
-    
-        }
-      ]
-      
-    return (
+  const projects = [
+    {
+      title: "GrandPrix History",
+    },
+    {
+      title: "Waitless",
+    },
+    {
+      title: "Timothy's Blog",
+    },
+    {
+      title: "F1-Heritage",
+    },
+  ];
 
-        <div className = "w-full bg-whit px-8  leading-non" >
-             <div className= "bg-white px-8  flex flex-col text-[50px]">
-           
-      {
-        projects.map( (project, index) => {
-          return <Project index={index} title={project.title}  key={index}/>
-        })
-      }
+  const toggleAccordion = (index) => {
+    setExpanded(expanded === index ? null : index);
+  };
+
+  return (
+    <div className="">
   
-             </div>
-        </div>
+        {projects.map((project, index) => (
+          <Accordion
+            key={index}
+            project={project}
+            isOpen={expanded === index}
+            toggleAccordion={() => toggleAccordion(index)}
+          />
+        ))}
+   
+    </div>
+  );
+};
 
-    )
-}
-
-export default Section
+export default Section;
