@@ -1,13 +1,12 @@
-'use client';
 
 
 
-const Project = ({ title  }) => {
+const Project = ({ title, description  }) => {
 
     return (
         <div  className="project">
             <h2>{title}</h2>
-            <p>Development</p>
+            <p>{description}</p>
         </div>
     )
 }
