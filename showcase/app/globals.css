@@ -22,32 +22,23 @@ body {
 
 
 @font-face {
-  font-family: 'ESKlarheitGrotesk-TRIAL';
-  src: url('./fonts/es-klarheit-font-family-1730750912-0/ESKlarheitGrotesk-TRIAL.otf') format('truetype')
+  font-family: 'SpaceMonoBold-AL8np';
+  src: url('./fonts/SpaceMonoBold-AL8np.ttf') format('truetype')
 
 }
 
-@font-face {
-  font-family: 'ESKlarheitKurrentMono-X';
-  src: url('./fonts/es-klarheit-font-family-1730750912-0/ESKlarheitKurrentMono-X.otf') format('truetype')
 
-}
-@font-face {
-  font-family: 'RacingCar-font.otf';
-  src: url('./fonts/RacingCar-font.otf') format('truetype')
-
-}
 /* Landing Styles */
 
 .custom-font{
-  font-family: 'ESKlarheitKurrentMono-X';
+  font-family: '';
 }
 .landing-font-1{
   font-family: 'RacingCar-font';
 }
 
 .header-font{
-  font-family: 'ESKlarheitGrotesk-TRIAL'
+  font-family: 'SpaceMonoBold-AL8np'
 }
 .paragraph{
   display: flex;
@@ -110,10 +101,12 @@ body {
   padding: 20px 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   font-weight: 500;
-  font-size: 20px;
+
   background: transparent;
   border: none;
   cursor: pointer;
 }
+
+
