@@ -17,8 +17,8 @@ export default function Home() {
           <Landing />
         </div>
 
-        <div className="sm:col-span-1 lg:col-span-1">
-          <h2 className="header-font text-4xl text-center mb-6">Projects</h2>
+        <div className="sm:col-span-1 lg:col-span-1 items-center">
+          <h2 className="custom-font text-4xl text-center mb-6 tracking-[.15em]">Projects</h2>
           <Section />
         </div>
       </div>

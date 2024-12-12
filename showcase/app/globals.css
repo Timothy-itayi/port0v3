@@ -26,12 +26,16 @@ body {
   src: url('./fonts/SpaceMonoBold-AL8np.ttf') format('truetype')
 
 }
+@font-face {
+  font-family: 'Aktura-Regular';
+  src: url('./fonts/Aktura-Regular.otf') format('truetype')
 
+}
 
 /* Landing Styles */
 
 .custom-font{
-  font-family: '';
+  font-family: 'Aktura-Regular';
 }
 .landing-font-1{
   font-family: 'RacingCar-font';

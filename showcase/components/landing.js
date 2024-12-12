@@ -2,13 +2,13 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div className="flex items-center flex-col text-center  pl-5 header-font">
-      <h1 className="header text-4xl font-bold">
+    <div className="flex items-center flex-col text-center  pl-5 ">
+      <h1 className="custom-font text-4xl font-bold">
         Timothy
         <span className="text-2xl"> ✦ </span>
         Itayi
       </h1>
-      <div className='text-xs p-2 text-center '>
+      <div className='text-sm p-2 text-center landing-font-1 font-bold'>
         <div className='flex row text-left mt-3'>
         <p>
       ⚡ Front-End Developer ⚡
